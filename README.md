@@ -50,13 +50,6 @@
 
 &emsp;&emsp;使用 XTuner 进行微调，具体脚本可参考[internlm_chat_7b_qlora_opgg2024_e3.py](https://github.com/2001wjh/InternLM_LoL_assistant/blob/main/train/internlm_chat_7b_qlora_opgg2024_e3.py))，该脚本在`train`文件夹下。脚本内有较为详细的注释。
 
-## OpenXLab 部署 lol智能小助手
-
-&emsp;&emsp;仅需要 Fork 本仓库，然后在 OpenXLab 上创建一个新的项目，将 Fork 的仓库与新建的项目关联，即可在 OpenXLab 上部署 Chat-嬛嬛。
-
-&emsp;&emsp;***OPenXLab lol智能小助手***
-
-![Alt text](images/openxlab.png)
 
 ## LmDeploy部署
 
