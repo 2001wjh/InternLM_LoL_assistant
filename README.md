@@ -16,7 +16,7 @@
 &emsp;&emsp;lol智能小助手 数据集采用OPGG的胜率、出场率、弱势英雄、当前版本的level等组成200余条，将每条数据完成扩充后，共计【11400】余条，用扩充后的数据集完成LORA微调，数据集样例：
 
 ```text
-![Uploading image.png…]()
+![微信图片_20240130201700.png](https://s2.loli.net/2024/01/30/3tUyAZdBIq9Wan5.png)
 
 ```
 
