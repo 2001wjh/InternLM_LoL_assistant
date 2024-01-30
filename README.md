@@ -1,6 +1,6 @@
 # LOL智能小助手
 
-***OpenXLab 体验地址：	***
+**OpenXLab 体验地址：	**
 
 > *此仓库主要用于将 LOL智能小助手项目部署到 OpenXLab 或 ModelScope 。*
 
