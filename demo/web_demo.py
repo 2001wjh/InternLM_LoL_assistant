@@ -69,8 +69,8 @@ with block as demo:
     with gr.Row(equal_height=True):   
         with gr.Column(scale=15):
             # 展示的页面标题
-            gr.Markdown("""<h1><center>InternLM</center></h1>
-                <center>书生浦语</center>
+            gr.Markdown("""<h1><center>Chat-LOL</center></h1>
+                <center>made by wjh2001 ZMcc18</center>
                 """)
 
     with gr.Row():
