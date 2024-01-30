@@ -5,7 +5,7 @@
 
 ## 介绍
 ```text
-&emsp;&emsp;LOL智能小助手是利用op.gg上的部分数据，与B站中的视频攻略，基于[InternLM](https://github.com/InternLM/InternLM.git)进行LoRA微调与RAG完成的LOL智能小助手问答demo。
+&emsp;&emsp;LOL智能小助手基于[InternLM-chat-7b](https://github.com/InternLM/InternLM.git)基座模型，是利用op.gg官网上的部分数据进行LoRA方法微调，以及B站中的视频攻略(转文本)作为RAG向量知识库文本，完成的LOL智能小助手问答demo。
 ```
 
 
