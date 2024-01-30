@@ -1,6 +1,5 @@
 # LOL智能小助手
 
-**OpenXLab 体验地址：	**
 
 > *此仓库主要用于将 LOL智能小助手项目部署到 OpenXLab 或 ModelScope 。*
 
@@ -8,15 +7,7 @@
 
 &emsp;&emsp;LOL智能小助手是利用op.gg上的部分数据，与B站中的视频攻略，基于[InternLM](https://github.com/InternLM/InternLM.git)进行LoRA微调与RAG完成的LOL智能小助手问答demo。
 
-> 
 
-&emsp;&emsp;
-
-> 具体如何实现全流程的 Character-AI 微调，可参考主仓库-[huanhuan-chat](https://github.com/KMnO4-zx/huanhuan-chat.git)。
->
-> 如何学习大模型部署和微调请参考：[开源大模型食用指南](https://github.com/datawhalechina/self-llm.git) 以及 [书生·浦语大模型实战营课程](https://github.com/InternLM/tutorial.git)
-
-&emsp;&emsp;***欢迎大家来给[InternLM2](https://github.com/InternLM/InternLM.git)，点点star哦~***
 
 
 
