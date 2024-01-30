@@ -66,7 +66,7 @@ pip install -U lmdeploy
 > --dst-path: 可以指定转换后的模型存储位置。
 
 ```shell
-lmdeploy convert internlm2-chat-7b  要转化的模型地址 --dst-path 转换后的模型地址
+lmdeploy convert internlm-chat-7b  要转化的模型地址 --dst-path 转换后的模型地址
 ```
 
 - LmDeploy Chat 对话
@@ -96,8 +96,8 @@ unzip OpenCompassData-core-20231110.zip
 ```shell
 python run.py \
     --datasets ceval_gen \
-    --hf-path /root/model/huanhuan/kmno4zx/huanhuan-chat-internlm2 \
-    --tokenizer-path /root/model/huanhuan/kmno4zx/huanhuan-chat-internlm2 \
+    --hf-path /root/model/huanhuan/kmno4zx/huanhuan-chat-internlm \
+    --tokenizer-path /root/model/huanhuan/kmno4zx/huanhuan-chat-internlm \
     --tokenizer-kwargs padding_side='left' truncation='left'     trust_remote_code=True \
     --model-kwargs device_map='auto' trust_remote_code=True \
     --max-seq-len 2048 \
@@ -139,7 +139,7 @@ datasets = [*ceval_datasets]
 
 internlm2_chat_7b = dict(
      type=TurboMindModel,
-     abbr='internlm2-chat-7b-turbomind',
+     abbr='internlm-chat-7b-turbomind',
      path='转换后的模型地址',
      engine_config=dict(session_len=512,
          max_batch_size=2,
