@@ -79,6 +79,19 @@ lmdeploy convert internlm-chat-7b  要转化的模型地址 --dst-path 转换后
 ```shell
 lmdeploy chat turbomind 转换后的turbomind模型地址
 ```
+
+- TurboMind推理 + API服务
+首先，通过下面命令启动服务。
+```shell
+# ApiServer+Turbomind   api_server => AsyncEngine => TurboMind
+lmdeploy serve api_server ./workspace \
+	--server_name 0.0.0.0 \
+	--server_port 23333 \
+	--instance_num 64 \
+	--tp 1
+```
+上面的参数中 server_name 和 server_port 分别表示服务地址和端口，tp 参数我们之前已经提到过了，表示 Tensor 并行。还剩下一个 instance_num 参数，表示实例数，可以理解成 Batch 的大小。
+
 ## OpneCompass 评测
 
 - 安装 OpenCompass
