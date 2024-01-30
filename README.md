@@ -4,9 +4,9 @@
 > *此仓库主要用于将 LOL智能小助手项目部署到 ModelScope 。*
 
 ## 介绍
-```text
+
 &emsp;&emsp;LOL智能小助手基于[InternLM-chat-7b](https://github.com/InternLM/InternLM.git)基座模型，是利用op.gg官网上的部分数据进行LoRA方法微调，以及B站中的视频攻略(转文本)作为RAG向量知识库文本，完成的LOL智能小助手问答demo。
-```
+
 
 
 
