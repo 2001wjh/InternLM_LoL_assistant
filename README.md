@@ -4,9 +4,9 @@
 > *此仓库主要用于将 LOL智能小助手项目部署到 ModelScope 。*
 
 ## 介绍
-''' text
+```text
 &emsp;&emsp;LOL智能小助手是利用op.gg上的部分数据，与B站中的视频攻略，基于[InternLM](https://github.com/InternLM/InternLM.git)进行LoRA微调与RAG完成的LOL智能小助手问答demo。
-'''
+```
 
 
 
