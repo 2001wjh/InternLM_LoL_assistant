@@ -80,8 +80,8 @@ lmdeploy convert internlm-chat-7b  要转化的模型地址 --dst-path 转换后
 lmdeploy chat turbomind 转换后的turbomind模型地址
 ```
 
-- TurboMind推理 + API服务 -
-首先，通过下面命令启动服务。
+- TurboMind推理 + API服务
+&emsp;&emsp;首先，通过下面命令启动服务。
 ```shell
 # ApiServer+Turbomind   api_server => AsyncEngine => TurboMind
 lmdeploy serve api_server ./workspace \
