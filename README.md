@@ -21,6 +21,11 @@
 
 ​		可以使用仓库中utils文件夹中的脚本【spider_opgg.py】完成opgg的爬取，并使用脚本【generate_data.py】完成数据集的扩充。
 
+
+## 测试样例
+
+![网页demo样例.png](https://github.com/2001wjh/InternLM_LoL_assistant/blob/main/image/web_demo.png)
+
 ## RAG
 
 ​		RAG就是通过检索获取相关的知识并将其融入Prompt，让大模型能够参考相应的知识从而给出合理回答。因此，可以将RAG的核心理解为“检索+生成”，前者主要是利用向量数据库的高效存储和检索能力，召回目标知识；后者则是利用大模型和Prompt工程，将召回的知识合理利用，生成目标答案。
