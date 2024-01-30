@@ -31,7 +31,7 @@
 
 - 应用阶段：用户提问——>数据检索（召回）——>注入Prompt——>LLM生成答案
 
-  LOL智能小助手使用的是从B站攻略视频中生成的攻略文字，字数逾10w+，完成知识库构建。使用到开源词向量模型 Sentence Transformer完成embedding，借助开源第三方库NLTK完成tokenize和tagger。使用 LangChain 提供的 FileLoader 对象来加载目标文件，得到由目标文件解析出的纯文本内容。
+​		LOL智能小助手使用的是从B站攻略视频中生成的攻略文字，字数逾10w+，完成知识库构建。使用到开源词向量模型 Sentence Transformer完成embedding，借助开源第三方库NLTK完成tokenize和tagger。使用 LangChain 提供的 FileLoader 对象来加载目标文件，得到由目标文件解析出的纯文本内容。
 
 ## 微调
 
