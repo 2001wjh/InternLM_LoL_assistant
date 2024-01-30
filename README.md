@@ -120,7 +120,7 @@ lmdeploy lite auto_awq 要量化的模型地址 --work-dir 量化后的模型地
 - 转化为`TurbMind`
 
 ```shell
-lmdeploy convert internlm2-chat-7b 量化后的模型地址  --model-format awq --group-size 128 --dst-path 转换后的模型地址
+lmdeploy convert internlm-chat-7b 量化后的模型地址  --model-format awq --group-size 128 --dst-path 转换后的模型地址
 ```
 
 - 评测`config`编写  
@@ -155,7 +155,7 @@ internlm2_chat_7b = dict(
      #  meta_template=internlm_meta_template,
      run_cfg=dict(num_gpus=1, num_procs=1),
 )
-models = [internlm2_chat_7b]
+models = [internlm_chat_7b]
 
 ```
 
@@ -170,7 +170,7 @@ python run.py configs/eval_turbomind.py -w 指定结果保存路径
 - 转换为`TurbMind`
 
 ```shell
-lmdeploy convert internlm2-chat-7b  模型路径 --dst-path 转换后模型路径
+lmdeploy convert internlm-chat-7b  模型路径 --dst-path 转换后模型路径
 ```
 
 - 计算与获得量化参数
