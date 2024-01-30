@@ -1,6 +1,6 @@
 # LOL智能小助手
 
-Chat-LoL 模型下载地址：https://www.modelscope.cn/models/wjh2001/Chat_LoL/summary
+## Chat-LoL 模型下载地址：https://www.modelscope.cn/models/wjh2001/Chat_LoL/summary
 > *此仓库主要用于将 LOL智能小助手项目部署到 OpenXLab 或 ModelScope 。*
 
 ## 介绍
