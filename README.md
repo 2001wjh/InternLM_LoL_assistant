@@ -43,7 +43,7 @@
 
 ### 方案二：XTuner
 
-&emsp;&emsp;使用 XTuner 进行微调，具体脚本可参考[internlm2_chat_7b_qlora_opgg2024_e3_copy.py]([./train/internlm2_chat_7b_qlora_opgg2024_e3_copy.py](https://github.com/2001wjh/InternLM_LoL_assistant/blob/main/train/internlm_chat_7b_qlora_opgg2024_e3.py))，该脚本在`train`文件夹下。脚本内有较为详细的注释。
+&emsp;&emsp;使用 XTuner 进行微调，具体脚本可参考[internlm_chat_7b_qlora_opgg2024_e3.py](https://github.com/2001wjh/InternLM_LoL_assistant/blob/main/train/internlm_chat_7b_qlora_opgg2024_e3.py))，该脚本在`train`文件夹下。脚本内有较为详细的注释。
 
 ## OpenXLab 部署 lol智能小助手
 
