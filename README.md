@@ -19,7 +19,7 @@
 
 ```
 
-​		可以使用仓库中的脚本【spider_opgg.py】完成opgg的爬取，并使用脚本【generate_data.py】完成数据集的扩充。
+​		可以使用仓库中utils文件夹中的脚本【spider_opgg.py】完成opgg的爬取，并使用脚本【generate_data.py】完成数据集的扩充。
 
 ## RAG
 
