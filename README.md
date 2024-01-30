@@ -15,10 +15,9 @@
 
 &emsp;&emsp;lol智能小助手 数据集采用OPGG的胜率、出场率、弱势英雄、当前版本的level等组成200余条，将每条数据完成扩充后，共计【11400】余条，用扩充后的数据集完成LORA微调，数据集样例：
 
-```text
+
 ![数据集样例.png](https://github.com/2001wjh/InternLM_LoL_assistant/blob/main/image/%E6%95%B0%E6%8D%AE%E9%9B%86%E6%A0%B7%E4%BE%8B.png)
 
-```
 
 ​		可以使用仓库中utils文件夹中的脚本【spider_opgg.py】完成opgg的爬取，并使用脚本【generate_data.py】完成数据集的扩充。
 
