@@ -5,7 +5,7 @@
 
 ## 介绍
 
-&emsp;&emsp;LOL智能小助手基于[InternLM-chat-7b](https://github.com/InternLM/InternLM.git)基座模型，是利用op.gg官网上的部分数据进行LoRA方法微调，以及B站中的视频攻略(转文本)作为RAG向量知识库文本，完成的LOL智能小助手问答demo。
+&emsp;&emsp;LOL智能小助手基于[InternLM-chat-7b](https://github.com/InternLM/InternLM.git)基座模型，利用op.gg官网上的部分数据进行LoRA方法微调，以及B站中的视频攻略(转文本)作为RAG向量知识库文本，完成的LOL智能小助手问答demo。
 
 
 
@@ -85,9 +85,9 @@ lmdeploy serve api_server ./workspace \
 	--instance_num 64 \
 	--tp 1
 ```
-&emsp;&emsp;上面的参数中 server_name 和 server_port 分别表示服务地址和端口，tp 参数我们之前已经提到过了，表示 Tensor 并行。还剩下一个 instance_num 参数，表示实例数，可以理解成 Batch 的大小。
+&emsp;&emsp;上面的参数中 server_name 和 server_port 分别表示服务地址和端口，tp 参数表示 Tensor 并行。instance_num 参数表示实例数，可以理解成 Batch 的大小。
 
-## OpneCompass 评测
+## OpenCompass 评测
 
 - 安装 OpenCompass
 
